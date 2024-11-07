@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoFix - Manutenção Inteligente e Sustentável</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>EcoFix</h1>
+      </div>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#agendar">Agendar Reparo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Repare seus dispositivos automaticamente, de maneira inteligente e sustentável</h1>
+      <p>Manutenção preditiva com automação de reparos usando robôs e inteligência artificial.</p>
+      <a href="#agendar" class="cta-button">Agende o Seu Reparo</a>
+    </div>
+  </section>
+
+  <!-- Seção de Benefícios -->
+  <section id="beneficios">
+    <div class="section-title">
+      <h2>Por que escolher EcoFix?</h2>
+    </div>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>Manutenção Preditiva</h3>
+        <p>Diagnóstico inteligente para prevenir falhas antes que aconteçam.</p>
+      </div>
+      <div class="benefit">
+        <h3>Automação de Reparos</h3>
+        <p>Reparo automático com precisão usando robôs inteligentes.</p>
+      </div>
+      <div class="benefit">
+        <h3>Sustentabilidade</h3>
+        <p>Reduza o desperdício eletrônico prolongando a vida útil dos seus dispositivos.</p>
+      </div>
+      <div class="benefit">
+        <h3>Fácil Acesso</h3>
+        <p>Acompanhe o processo de reparo em tempo real diretamente da sua plataforma.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Como Funciona -->
+  <section id="como-funciona" class="como-funciona">
+    <div class="section-title">
+      <h2>Como Funciona o EcoFix?</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3>Monitoramento em Tempo Real</h3>
+        <p>Instale sensores IoT nos seus dispositivos para monitorar sua saúde e desempenho.</p>
+      </div>
+      <div class="step">
+        <h3>Diagnóstico Inteligente</h3>
+        <p>Nosso sistema realiza diagnósticos preditivos baseados em dados dos sensores.</p>
+      </div>
+      <div class="step">
+        <h3>Reparo Automático</h3>
+        <p>Com um braço robótico, realizamos o reparo ou orientamos o conserto manual.</p>
+      </div>
+      <div class="step">
+        <h3>Acompanhamento e Relatório</h3>
+        <p>Receba relatórios completos e recomendações para manter seus dispositivos sempre funcionando bem.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agendar Reparo -->
+  <section id="agendar">
+    <div class="section-title">
+      <h2>Agende Seu Reparo</h2>
+    </div>
+    <form class="agendar-form">
+      <label for="dispositivo">Escolha o dispositivo:</label>
+      <select id="dispositivo">
+        <option value="geladeira">Geladeira</option>
+        <option value="ar-condicionado">Ar Condicionado</option>
+        <option value="smartphone">Smartphone</option>
+        <option value="tv">TV</option>
+      </select>
+
+      <label for="data-hora">Escolha a data e hora:</label>
+      <input type="datetime-local" id="data-hora" required>
+
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" required>
+
+      <label for="email">Seu e-mail:</label>
+      <input type="email" id="email" required>
+
+      <button type="submit" class="cta-button">Agendar Reparo</button>
+    </form>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato">
+    <div class="section-title">
+      <h2>Fale Conosco</h2>
+    </div>
+    <form class="contato-form">
+      <label for="contato-nome">Nome:</label>
+      <input type="text" id="contato-nome" required>
+
+      <label for="contato-email">E-mail:</label>
+      <input type="email" id="contato-email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" rows="4" required></textarea>
+
+      <button type="submit" class="cta-button">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 EcoFix. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
